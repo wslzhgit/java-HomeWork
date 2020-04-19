@@ -22,6 +22,7 @@ public class ZuoYe1 {
         if (price*num>=500){
             money3 = money1-price*num*0.8f;
             System.out.println("应收金额为：￥"+(price*num*0.8f)+",找零为：￥"+money3);
+            System.out.println("没钱了");
 
         }else {
             money3 = money1 - price*num;;
